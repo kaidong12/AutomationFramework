@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="TAF" default="distTF" basedir=".">
+	<description>
+        simple example build file
+    </description>
+
+	<!-- set global properties for this build -->
+	<property file="build.properties">
+	</property>
+	<property name="src" location="trunk/src"/>
+	<property name="jar.name" location="TestAutomationFrameWork"/>
+	<property name="build" location="build"/>
+	<property name="dist"  location="dist"/>
+	<property name="output.lib" location="${output.libs}"/>
+	<property name="libs.location" value ="${testautomation.software.libs}"/>
+	<property name="supercsv.lib.location" value="${testautomation.software.supercsv.lib}"/>
+	<property name="testlink.lib.location" value="${testautomation.software.testlink.lib}"/>
+	<!-- Copy Automation Software to TargetDirctory -->
+	<target name="copy-jarsTF">
+		<echo message="---TestAutomationBuild Process Started....." />
+		<copy todir="${output.lib}" flatten="true" overwrite="true">
+			<fileset dir="${libs.location}">
+				<include name="**/*.jar" />
+				<include name="*.jar" />
+				<include name="**/*.exe" />
+				<include name="*.exe" />
+			</fileset>
+		</copy>
+		<echo message="Copying TestLink Libraries"/>
+		<copy todir="${output.lib}" flatten="true" overwrite="true">
+			<fileset dir="${testlink.lib.location}">
+				<include name="**/*.jar" />
+				<include name="*.jar" />
+			</fileset>
+		</copy>
+		<echo message="Copying Super CSV Libraries"/>
+		<copy todir="${output.lib}" flatten="true" overwrite="true">
+			<fileset dir="${supercsv.lib.location}">
+				<include name="**/*.jar" />
+				<include name="*.jar" />
+			</fileset>
+		</copy>
+
+	</target>
+	<target name="initTF" depends="copy-jarsTF">
+
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}"/>
+	</target>
+	<path id="output.lib">
+		<!-- pathelement path="${root.dir}"></pathelement>
+        <pathelement path="${build.dir}"></pathelement>
+		TODO to specify only required jars -->
+		<fileset dir="${libs.location}">
+			<include name="**/*.jar"/>
+		</fileset>
+		<fileset dir="${supercsv.lib.location}">
+			<include name="**/*.jar"/>
+		</fileset>
+		<fileset dir="${testlink.lib.location}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<target name="compileTF" depends="initTF"
+        description="compile the source " >
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}">
+			<src path="trunk/src"/>
+			<classpath refid="output.lib"/>
+		</javac>
+	</target>
+
+	<target name="distTF" depends="compileTF"
+        description="generate the distribution" >
+		<!-- Create the distribution directory -->
+		<mkdir dir="${dist}/lib"/>
+		<antcall target="copy-resourcesTF"/>
+		<!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+		<jar jarfile="${output.lib}/TestAutomationFramework.jar" basedir="${build}"/>
+		<echo message=".....Test Automation Framework Successfully Deployed"/>
+	</target>
+	<target name="copy-resourcesTF">
+		<copy todir="${output.libs}" overwrite="true">
+			<fileset dir="${src}" includes="**/*.xml,**/*.properties,**/*.txt,**/*.ico,**/*.js" />
+		</copy>
+	</target>
+	<target name="cleanTF"
+        description="clean up" >
+		<!-- Delete the ${build} and ${dist} directory trees -->
+		<delete dir="${build}"/>
+		<delete dir="${dist}"/>
+	</target>
+	<!--target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects">
+		<ant antfile="build.xml" dir="${ReportingPortal_Project.location}" inheritAll="false" target="clean"/>
+		<ant antfile="build.xml" dir="${ReportingPortal_Project.location}" inheritAll="false" target="build">
+			<propertyset>
+				<propertyref name="build.compiler"/>
+			</propertyset>
+		</ant>
+	</target!-->
+</project>

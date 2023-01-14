@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="CWTTestService.asmx.cs" Class="CWTTestWebService.CWTTestService" %>
