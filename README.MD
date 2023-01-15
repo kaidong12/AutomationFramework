@@ -1,1 +1,1 @@
-automation framework with java+selenium+testng+pl
+automation framework with java+selenium+testng+sizzle.js+perl
