@@ -12,7 +12,7 @@ import com.cisco.framework.utilities.logging.Log;
 
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  *
  */
 public class JDatabase_UnitTest {

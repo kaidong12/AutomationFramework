@@ -10,7 +10,7 @@ import com.cisco.framework.utilities.logging.html.HTMLTableRowElement;
 import com.cisco.framework.utilities.logging.html.HTMLUnOrderedListElement;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  * 
  */
 public class TestMethod {

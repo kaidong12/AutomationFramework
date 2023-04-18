@@ -27,7 +27,7 @@ import com.thoughtworks.selenium.Selenium;
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class Browser {
 

@@ -12,7 +12,7 @@ import com.thoughtworks.selenium.DefaultSelenium;
 import com.thoughtworks.selenium.HttpCommandProcessor;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class Server {
 	private String						serverHost					= "localhost";

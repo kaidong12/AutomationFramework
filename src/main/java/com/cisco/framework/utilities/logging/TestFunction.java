@@ -9,7 +9,7 @@ import com.cisco.framework.utilities.logging.html.HTMLTableHeaderElement;
 import com.cisco.framework.utilities.logging.html.HTMLUnOrderedListElement;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  * 
  */
 public class TestFunction {

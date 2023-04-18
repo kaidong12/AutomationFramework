@@ -1,7 +1,7 @@
 package com.cisco.framework.utilities.logging.html;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class HTMLAnchorElement extends Element {
 	public HTMLAnchorElement(String href, String target) {

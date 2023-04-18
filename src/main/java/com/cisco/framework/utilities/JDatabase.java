@@ -13,7 +13,7 @@ import com.cisco.framework.core.exceptions.FrameworkException;
 import com.cisco.framework.utilities.logging.Log;
 
 /**
- * @author Francesco Ferrante<br>
+ * @author Lance Yan<br>
  *         <br>
  * 
  *         Class <code>JDatabase</code> is a very thin wrapper around java's JDBC API<br>

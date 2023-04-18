@@ -1,7 +1,7 @@
 package com.cisco.framework.core.enums;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public enum BrowserType {
 

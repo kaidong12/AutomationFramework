@@ -5,7 +5,7 @@ import com.cisco.framework.utilities.logging.Log;
 import com.cisco.framework.utilities.logging.LogData;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  *
  */
 public class LogUnitTests {
@@ -462,7 +462,7 @@ public class LogUnitTests {
 
 	private static void unitTest15() throws Exception {
 		startTest("unitTest15");
-		String actionValueOrMessage = "Entering Username: 'Francesco Ferrante' I will enter a very long line in order to test wether a single line will wrap in an appropriate manner within a given table cell."
+		String actionValueOrMessage = "Entering Username: 'Lance Yan' I will enter a very long line in order to test wether a single line will wrap in an appropriate manner within a given table cell."
 				+ NEW_LINE
 				+ "Another very long line is entered in order to determine if the second table cell in the second table row wraps in an appropriate manner.";
 		String locator1 = "Project.Portlet1.Portlet2";

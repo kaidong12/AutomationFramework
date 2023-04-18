@@ -1,7 +1,7 @@
 package com.cisco.framework.utilities.logging.html;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class HTMLTextAreaElement extends Element {
 	public HTMLTextAreaElement(int rows, int cols, boolean disabled, boolean readonly) {

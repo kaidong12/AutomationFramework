@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class JFileTimeStamper {
 
@@ -19,7 +19,7 @@ public class JFileTimeStamper {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param file
 	 * @throws Exception
 	 *             This method appends the timestamp 'timeStamp' at the end of the filename.<br>
@@ -45,7 +45,7 @@ public class JFileTimeStamper {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param outPutFolder
 	 * @throws Exception
 	 *             <br>
@@ -71,7 +71,7 @@ public class JFileTimeStamper {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return String <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -94,7 +94,7 @@ public class JFileTimeStamper {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param fileName
 	 * @return true/false <br>
 	 *         <br>

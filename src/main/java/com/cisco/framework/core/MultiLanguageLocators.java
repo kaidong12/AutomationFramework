@@ -10,7 +10,7 @@ import com.cisco.framework.core.exceptions.FrameworkException;
 import com.cisco.framework.utilities.logging.Log;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class MultiLanguageLocators extends Locators {
 

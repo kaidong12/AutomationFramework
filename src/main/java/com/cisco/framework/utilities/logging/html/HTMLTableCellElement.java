@@ -1,6 +1,6 @@
 package com.cisco.framework.utilities.logging.html;
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class HTMLTableCellElement extends Element {
 	public HTMLTableCellElement() {

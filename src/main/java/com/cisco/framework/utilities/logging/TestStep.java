@@ -5,7 +5,7 @@ import java.io.File;
 import com.cisco.framework.utilities.logging.html.*;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  * 
  */
 public class TestStep {

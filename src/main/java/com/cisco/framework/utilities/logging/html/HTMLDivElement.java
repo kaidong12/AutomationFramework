@@ -1,7 +1,7 @@
 package com.cisco.framework.utilities.logging.html;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class HTMLDivElement extends Element {
 	public HTMLDivElement(String align, int width, int height) {

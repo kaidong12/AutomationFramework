@@ -1,7 +1,7 @@
 package com.cisco.framework.utilities.logging.html;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class HTMLImageElement extends Element {
 	public HTMLImageElement(String src, String alt, String title, int width, int height) {

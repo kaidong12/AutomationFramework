@@ -7,7 +7,7 @@ import com.cisco.framework.utilities.logging.Log;
 
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  *
  */
 public class JSoapClient_UnitTest {

@@ -9,7 +9,7 @@ import com.cisco.framework.core.exceptions.FrameworkException;
 import com.cisco.framework.utilities.logging.Log;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class Locators {
 
@@ -135,7 +135,7 @@ public class Locators {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param keyOrValue
 	 * @return true/false This method returns "true" if "keyOrValue" is valid and "false" otherwise.<br>
 	 *         A "key" or "value" is deemed to be valid if both point to a non-empty string.<br>
@@ -153,7 +153,7 @@ public class Locators {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToLocatorsFile
 	 * @return Properties
 	 * @throws IOException

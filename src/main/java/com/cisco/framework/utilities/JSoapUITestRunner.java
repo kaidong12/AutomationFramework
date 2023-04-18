@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Francesco Ferrante<br>
+ * @author Lance Yan<br>
  *         <br>
  * 
  *         Class <code>JSoapUITestRunner</code> is a thin wrapper around SoapUI's testrunner.bat functionality which<br>
@@ -187,7 +187,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return String[] <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -204,7 +204,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the passwordForSoapUISettingsXmlFile <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -217,7 +217,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param passwordForSoapUISettingsXmlFile
 	 *            the passwordForSoapUISettingsXmlFile to set <br>
 	 *            <br>
@@ -238,7 +238,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the soapUISettingsXmlFileToUse <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -251,7 +251,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param soapUISettingsXmlFileToUse
 	 *            the soapUISettingsXmlFileToUse to set <br>
 	 *            <br>
@@ -272,7 +272,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the systemProperty <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -285,7 +285,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param systemProperty
 	 *            the systemProperty to set <br>
 	 *            <br>
@@ -309,7 +309,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the globalProperty <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -322,7 +322,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param globalProperty
 	 *            the globalProperty to set <br>
 	 *            <br>
@@ -346,7 +346,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the projectProperty <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -359,7 +359,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param projectProperty
 	 *            the projectProperty to set <br>
 	 *            <br>
@@ -383,7 +383,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the saveProjectAfterRunningTests <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -397,7 +397,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param saveProjectAfterRunningTests
 	 *            the saveProjectAfterRunningTests to set <br>
 	 *            <br>
@@ -413,7 +413,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the exportAllResults <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -427,7 +427,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param exportAllResults
 	 *            the exportAllResults to set <br>
 	 *            <br>
@@ -443,7 +443,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param testCase
 	 *            the testCase to set <br>
 	 *            <br>
@@ -464,7 +464,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the domain <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -477,7 +477,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param domain
 	 *            the domain to set <br>
 	 *            <br>
@@ -498,7 +498,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the endPoint <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -511,7 +511,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param endPoint
 	 *            the endPoint to set <br>
 	 *            <br>
@@ -532,7 +532,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the outPutFolder <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -545,7 +545,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param outPutFolder
 	 *            the outPutFolder to set <br>
 	 *            <br>
@@ -568,7 +568,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the host <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -581,7 +581,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param host
 	 *            the host to set <br>
 	 *            <br>
@@ -602,7 +602,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the jUnitXMLReportsOutput <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -615,7 +615,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param jUnitXMLReportsOutput
 	 *            the jUnitXMLReportsOutput to set <br>
 	 *            <br>
@@ -636,7 +636,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the maximumTestStepErrors <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -649,7 +649,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param maximumTestStepErrors
 	 *            the maximumTestStepErrors to set <br>
 	 *            <br>
@@ -666,7 +666,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param testSuite
 	 *            the testSuite to set <br>
 	 *            <br>
@@ -686,7 +686,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param userName
 	 *            the userName to set <br>
 	 *            <br>
@@ -707,7 +707,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param password
 	 *            the password to set <br>
 	 *            <br>
@@ -728,7 +728,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the wssPassword <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -741,7 +741,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param wssPassword
 	 *            the wssPassword to set <br>
 	 *            <br>
@@ -765,7 +765,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the decryptProjectPassword <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -779,7 +779,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param decryptProjectPassword
 	 *            the decryptProjectPassword to set <br>
 	 *            <br>
@@ -794,7 +794,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToTestRunnerBathFile
 	 *            the pathToTestRunnerBathFile to set <br>
 	 *            <br>
@@ -817,7 +817,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToSoapUIXMLProjectFile
 	 *            the pathToSoapUIXMLProjectFile to set <br>
 	 *            <br>
@@ -840,7 +840,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return A string of command line arguments <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -948,7 +948,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante <br>
+	 * @author Lance Yan <br>
 	 *         <br>
 	 *         USAGE:<br>
 	 *         <br>
@@ -980,7 +980,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToSoapUIXMLProjectFile
 	 * @param testSuite
 	 * @param testCase
@@ -1015,7 +1015,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToSoapUIXMLProjectFile
 	 * @param testSuite
 	 * @param endPoint
@@ -1048,7 +1048,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToSoapUIXMLProjectFile
 	 * @param testSuite
 	 * @param testCase
@@ -1078,7 +1078,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToSoapUIXMLProjectFile
 	 * @param testSuite
 	 * @param endPoint
@@ -1107,7 +1107,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToSoapUIXMLProjectFile
 	 * @param testSuite
 	 * @param testCase
@@ -1140,7 +1140,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToSoapUIXMLProjectFile
 	 * @param testSuite
 	 * @param outPutFolder
@@ -1171,7 +1171,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToSoapUIXMLProjectFile
 	 * @param testSuite
 	 * @param testCase
@@ -1199,7 +1199,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToSoapUIXMLProjectFile
 	 * @param testSuite
 	 * @param outPutFolder
@@ -1225,7 +1225,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param testResultsFile
 	 * @return String
 	 * @throws Exception
@@ -1241,7 +1241,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param testResultsFile
 	 * @return String
 	 * @throws Exception
@@ -1257,7 +1257,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param testResultsFile
 	 * @param soapEnvelopeTag
 	 * @return String
@@ -1305,7 +1305,7 @@ public class JSoapUITestRunner {
 	}
 
 	/**
-	 * @author Francesco Ferrante <br>
+	 * @author Lance Yan <br>
 	 *         <br>
 	 *         USAGE:<br>
 	 *         <br>

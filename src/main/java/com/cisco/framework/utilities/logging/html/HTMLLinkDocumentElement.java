@@ -3,7 +3,7 @@ package com.cisco.framework.utilities.logging.html;
 import com.cisco.framework.utilities.logging.Log;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class HTMLLinkDocumentElement extends Element {
 	public HTMLLinkDocumentElement() {

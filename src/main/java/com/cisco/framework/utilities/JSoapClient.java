@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.regex.Pattern;
 
 /**
- * @author Francesco Ferrante<br>
+ * @author Lance Yan<br>
  *         <br>
  * 
  *         Class <code>JSoapClient</code> is a general purpose soap client for the sending and recieving of soap requests/responses respectively.<br>

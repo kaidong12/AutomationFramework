@@ -6,7 +6,7 @@ import java.net.PasswordAuthentication;
 //import sun.misc.BASE64Encoder;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  *
  */
 public class JSoapClientAuthenticator extends Authenticator {

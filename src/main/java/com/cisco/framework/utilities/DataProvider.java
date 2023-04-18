@@ -15,7 +15,7 @@ import com.cisco.framework.utilities.logging.Log;
  * @author Lance Yan<br>
  *         <br>
  *
- *         Class <code>DataProvider</code> is a extends of Francesco Ferrante's <code>JDatabase</code><br>
+ *         Class <code>DataProvider</code> is a extends of Lance Yan's <code>JDatabase</code><br>
  *         which provides support for the following three basic actions:<br>
  *         <br>
  *

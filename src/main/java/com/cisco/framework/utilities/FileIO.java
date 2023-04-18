@@ -35,7 +35,7 @@ public class FileIO {
 	}
 
 	/***
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToFolder
 	 * @return "a list of file names"
 	 * @throws FrameworkException
@@ -59,7 +59,7 @@ public class FileIO {
 	}
 
 	/***
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param pathToFolder
 	 * @return "a list of files"
 	 * @throws FrameworkException

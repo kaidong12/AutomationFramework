@@ -1,7 +1,7 @@
 package com.cisco.framework.core.exceptions;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public class FrameworkException extends RuntimeException {
 
@@ -13,7 +13,7 @@ public class FrameworkException extends RuntimeException {
 	private int					issueCategory			= 0;
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param methodName
 	 * @param locatorNameOrParameter
 	 * @param actionValueOrMessage
@@ -44,7 +44,7 @@ public class FrameworkException extends RuntimeException {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return String <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -57,7 +57,7 @@ public class FrameworkException extends RuntimeException {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the locatorNameOrParameter <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -70,7 +70,7 @@ public class FrameworkException extends RuntimeException {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the actionValueOrMessage <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -83,7 +83,7 @@ public class FrameworkException extends RuntimeException {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the entryStatus <br>
 	 *         <br>
 	 *         USAGE:<br>
@@ -96,7 +96,7 @@ public class FrameworkException extends RuntimeException {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @return the issueCategory <br>
 	 *         <br>
 	 *         USAGE:<br>

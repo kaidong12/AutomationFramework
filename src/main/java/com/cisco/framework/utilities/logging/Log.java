@@ -34,7 +34,7 @@ import com.cisco.framework.utilities.JFileTimeStamper;
 import com.cisco.framework.utilities.logging.html.*;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  *
  */
 public class Log {
@@ -137,7 +137,7 @@ public class Log {
 	}
 
 	/***
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param none
 	 * @return List of <TestMethod> <br>
 	 *         <br>

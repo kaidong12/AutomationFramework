@@ -32,7 +32,7 @@ import com.thoughtworks.selenium.Selenium;
 import com.thoughtworks.selenium.SeleniumException;
 
 /**
- * @author Francesco Ferrante
+ * @author Lance Yan
  */
 public abstract class WebApp {
 
@@ -1548,7 +1548,7 @@ public abstract class WebApp {
 	}
 
 	/**
-	 * @author Francesco Ferrante
+	 * @author Lance Yan
 	 * @param locatorType
 	 *            object
 	 * @param options
